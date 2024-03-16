@@ -82,3 +82,104 @@ h1 {
 .active {
   display: block;
 }
+
+/* *********************************************************************** */
+#cTof {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+}
+
+#cTof form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 20px;
+}
+#textBox {
+  width: 60%;
+  font-size: 3rem;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+}
+
+label {
+  font-size: 1.3rem;
+}
+form > button {
+  width: max-content;
+  padding: 1.2rem;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  background-color: lime;
+  font-weight: 600;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+form > button:hover {
+  box-shadow: 2px 3px 10px red;
+  color: rgba(0, 0, 0, 0.7);
+}
+#ketQuaChuyen {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+/* *********************************************************************** */
+
+#tungXucXac {
+  text-align: center;
+}
+#tungXucXac > label {
+  font-size: 2rem;
+  color: red;
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#tungXucXac > input {
+  font-size: 2rem;
+  text-align: center;
+  width: 10rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#tungXucXac > button {
+  font-size: 2rem;
+  color: lime;
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#ketQuaXucXac {
+  font-size: 1.25rem;
+  color: white;
+}
+#hinhAnhXucXac img {
+  width: 150px;
+  height: auto;
+}

@@ -31,7 +31,7 @@
         </section>
         <!--                                ĐÁNH ĐỀ                               -->
         <section id="danhDe">
-            <h1 id="soDe">Đánh Đề Con Gì Đây</h1><br>
+            <h1 id="soDe">Đánh đề con gì đây</h1><br>
             <nav class="btn-sec">
                 <button id="btnDanhDe" class="btn">Bấm để lấy số đề</button>
                 <button id="btnResetDanhDe" class="btn">Bấm reset số</button>
@@ -84,6 +84,31 @@
             </nav>
             <p class="show-navcontent"></p>
         </section>
+        <section id="cTof">
+            <form>
+                <h1>Chuyển nhiệt độ:</h1>
+                <input type="number" id="textBox" value="0"><br>
+
+                <input type="radio" id="sangDoF" name="unit">
+                <label for="sangDoF">C ➡️➡️ F</label><br>
+
+                <input type="radio" id="sangDoC" name="unit">
+                <label for="sangDoC">F ➡️➡️ C</label><br>
+
+                <button type="button" onclick="chuyenSo()">Submit</button>
+                <p id="ketQuaChuyen"></p>
+            </form>
+        </section>
+
+        <section id="tungXucXac">
+            <h1>Tung Xúc Xắc</h1>
+            <label for="">Số lượng xúc xắc</label>
+            <input type="number" id="soXucXac" min="1" value="1">
+            <button onclick="tungXucXac()">Ấn để tung xúc xắc</button>
+            <nav id="ketQuaXucXac"></nav>
+            <nav id="hinhAnhXucXac"></nav>
+        </section>
+
 
 
     </main>
@@ -91,7 +116,7 @@
         <!-- place footer here -->
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="/js/app.js"></script>
+    <script src=" /js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
